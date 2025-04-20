@@ -1,0 +1,17 @@
+05/03/2022 23:46:57 hataSystem.Exception: Yeni bir hata raporu
+   at EC.Presentation.Pages.IndexModel.OnGet() in I:\C#Project\ECommerce\EC.Presentation\Pages\Index.cshtml.cs:line 27
+05/03/2022 23:46:58 Index requested05/03/2022 23:46:58 HTTP "GET" "/" responded 200 in 481.1984 ms05/04/2022 10:36:17 hataSystem.Exception: Yeni bir hata raporu
+   at EC.Presentation.Pages.IndexModel.OnGet() in I:\C#Project\ECommerce\EC.Presentation\Pages\Index.cshtml.cs:line 27
+05/04/2022 10:36:18 Index requested05/04/2022 10:36:18 HTTP "GET" "/" responded 200 in 643.9198 ms05/04/2022 10:37:00 HTTP "GET" "/Account/Login" responded 200 in 253.0531 ms05/04/2022 10:37:00 HTTP "GET" "/Account/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" responded 404 in 8.4619 ms05/04/2022 10:37:00 HTTP "GET" "/Account/lib/jquery-validation/dist/jquery.validate.js" responded 404 in 8.4704 ms05/04/2022 10:37:04 HTTP "GET" "/Account/Register" responded 500 in 8.9798 msSystem.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UI.Services.IEmailSender' while attempting to activate 'EC.Presentation.Areas.Account.Pages.RegisterModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method66(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelActivatorProvider.<>c__DisplayClass1_0.<CreateActivator>b__0(PageContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
